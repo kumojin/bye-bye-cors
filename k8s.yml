@@ -17,7 +17,7 @@ spec:
         app: proxy
     spec:
       containers:
-        - image: "kumojin.azurecr.io/proxy:v1.0.13"
+        - image: "kumojin/bye-bye-cors"
           name: proxy
           imagePullPolicy: Always
           ports:
