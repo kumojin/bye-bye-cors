@@ -6,10 +6,7 @@ Simply update the `proxyTable` object in `index.js` and the proxy should work.
 (You will probably have to add rules for each of the url if you plan on deploying to Kubernetes)
 
 ## How to run
-Install the dependencies
-``` npm install ```
-or
-``` yarn ```
+Install the dependencies: `npm install` or `yarn`
 
 Run the proxy
 ``` node index.js ```
