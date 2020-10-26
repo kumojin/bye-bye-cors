@@ -49,7 +49,7 @@ metadata:
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   tls:
-    - hosts:
+    - hosts: []
       secretName: proxy-tls
   rules:
     
