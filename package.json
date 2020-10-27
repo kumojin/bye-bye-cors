@@ -1,12 +1,20 @@
 {
   "name": "bye-bye-cors",
+  "description": "A proxy that allows for bypassing CORS for a dedicated list of websites... for development purpose",
+  "private": false,
   "version": "1.0.0",
-  "description": "",
+  "author": {
+    "name": "Solutions Kumojin Inc.",
+    "email": "contact@kumojin.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kumojin/bye-bye-cors/issues"
+  },
+  "homepage": "https://github.com/kumojin/bye-bye-cors#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kumojin",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
